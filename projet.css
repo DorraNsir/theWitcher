@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu&display=swap');
+*{
+    font-family:'Ubuntu',sans-serif ;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right ,rgba(11, 4, 46, 0.89)30%,rgb(210, 161, 168) );
+    height: 100vh;
+}
+.container{
+    background-image: linear-gradient(to right ,rgba(8, 2, 38, 0.811)15%,transparent ),
+    url(Post_TheWitcher3_1500x948.jpg);
+    width: 95%;
+    height: 580px;
+}
+.container:hover{
+    background-image: linear-gradient(to right ,rgba(8, 2, 38, 0.811)15%, transparent ),
+    url(Post_TheWitcher3_1500x948.jpg);
+    
+}
+a{
+    color: rgb(255, 249, 249);
+    text-decoration: none;
+    text-shadow: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    list-style: none;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+
+}
+ul a:hover{
+    border-bottom: 2px solid white;
+    
+}
+.content{
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.content p{
+    letter-spacing: 3px;
+    width: 425px;
+    padding: 20px 0px;
+}
+.content button{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 6px 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.content button:hover{
+   background-color: transparent;
+   color: white;
+   border-color: white;
+    
+}
